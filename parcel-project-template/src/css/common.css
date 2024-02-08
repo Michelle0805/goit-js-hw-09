@@ -16,3 +16,37 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.btn-container {
+  display: flex;
+  gap: 20px;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-start, .data-stop {
+  height: 50px;
+  width: 80px;
+  
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+  margin-top:20px ;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.value {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: xx-large;
+}
